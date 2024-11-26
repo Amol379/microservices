@@ -46,7 +46,7 @@ public class CardsServiceImpl implements ICardsService {
         newCard.setCardType(CardsConstants.CREDIT_CARD);
         newCard.setTotalLimit(CardsConstants.NEW_CARD_LIMIT);
         newCard.setAmountUsed(0);
-        //newCard.setCreatedAt(LocalDateTime.now());
+        //+newCard.setCreatedAt(LocalDateTime.now());
         newCard.setAvailableAmount(CardsConstants.NEW_CARD_LIMIT);
         return newCard;
     }
